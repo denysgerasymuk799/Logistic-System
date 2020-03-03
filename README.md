@@ -5,6 +5,7 @@ your order can be made based on if vehicle is free to transport your order. Also
 based on distance between from_city and city. where you send it.  
 
 If you will print in logistic_system.py:
+    
     ```
     vehicles = [Vehicle(1), Vehicle(2)]
     logSystem = LogisticSystem(vehicles)
@@ -25,6 +26,7 @@ If you will print in logistic_system.py:
 
 
 You will get:
+    
     ```
     Your order number is 53797691
     None
@@ -36,6 +38,7 @@ You will get:
 
 #My main work 
 I add class Sender and two functions in logistic_system.py:
+    
     ```
     def add_sender_to_db(self, order: Order, sender: Sender):
         """
@@ -49,3 +52,5 @@ I add class Sender and two functions in logistic_system.py:
         """
         Make a price for transportation based on destination between from_city and city
     ```
+
+The UML diagram you can find here in __Herasymuk_Lab_4 Diagram.pdf__
